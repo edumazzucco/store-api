@@ -7,3 +7,5 @@
 2022-06-06T20:40:05.755Z [store-api] info: POST /client - {"name":"João","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
 2022-06-06T20:40:55.939Z [store-api] info: POST /client - {"name":"João","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
 2022-06-06T20:47:24.967Z [store-api] info: POST /client - {"name":"João","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
+2022-06-06T21:02:05.207Z [store-api] error: GET  - ClientService.getClients is not a function
+2022-06-06T21:02:51.502Z [store-api] info: GET /clients

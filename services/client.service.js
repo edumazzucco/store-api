@@ -22,4 +22,8 @@ async function deleteClient(id) {
 
 export default {
   createClient,
+  getClients,
+  getClient,
+  updateClient,
+  deleteClient,
 };
