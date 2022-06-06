@@ -26,3 +26,49 @@
 2022-06-06T21:52:20.619Z [store-api] error: POST  - client is not defined
 2022-06-06T21:52:53.083Z [store-api] info: POST /supplier - {"name":"Fornecedor","cnpj":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
 2022-06-06T21:52:57.809Z [store-api] info: GET /suppliers
+2022-06-06T22:09:27.763Z [store-api] error: POST  - ProductService.createProduct is not a function
+2022-06-06T22:09:39.313Z [store-api] info: POST /product - {"name":"Produto 1","description":"Descrição legal","value":"1070","stock":"100","supplier_id":"1"}
+2022-06-06T22:09:42.761Z [store-api] info: GET /products
+2022-06-06T22:09:46.328Z [store-api] info: GET /product/1
+2022-06-06T22:10:02.868Z [store-api] info: PUT /product/5 - {"name":"Produto 1","description":"Descrição legal","value":"1070","stock":"97","supplier_id":"1"}
+2022-06-06T22:10:05.759Z [store-api] info: GET /products
+2022-06-06T22:10:07.366Z [store-api] info: GET /products
+2022-06-06T22:10:13.138Z [store-api] info: PUT /product/1 - {"name":"Produto 1","description":"Descrição legal","value":"1070","stock":"97","supplier_id":"1"}
+2022-06-06T22:10:15.207Z [store-api] info: GET /products
+2022-06-06T22:10:27.064Z [store-api] info: GET /products
+2022-06-06T22:10:45.055Z [store-api] info: GET /product/1
+2022-06-06T22:10:49.916Z [store-api] info: PUT /product/1 - {"name":"Produto 1","description":"Descrição legal","value":"1070","stock":"97","supplier_id":"1"}
+2022-06-06T22:11:59.501Z [store-api] info: GET /suppliers
+2022-06-06T22:12:11.455Z [store-api] info: PUT /supplier/5 - {"name":"Fornecedor 2","cnpj":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
+2022-06-06T22:12:17.839Z [store-api] info: GET /suppliers
+2022-06-06T22:14:07.608Z [store-api] info: GET /suppliers
+2022-06-06T22:14:25.295Z [store-api] info: PUT /supplier/1 - {"name":"Fornecedor 2","cnpj":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
+2022-06-06T22:14:28.129Z [store-api] info: GET /suppliers
+2022-06-06T22:14:31.561Z [store-api] info: GET /products
+2022-06-06T22:14:39.705Z [store-api] error: PUT  - bind message supplies 7 parameters, but prepared statement "" requires 6
+2022-06-06T22:14:42.715Z [store-api] info: GET /products
+2022-06-06T22:14:44.529Z [store-api] info: GET /products
+2022-06-06T22:17:23.264Z [store-api] info: DELETE /product/1
+2022-06-06T22:17:29.163Z [store-api] info: GET /products
+2022-06-06T22:17:59.852Z [store-api] info: POST /product - {"name":"Produto 1","description":"Descrição legal","value":1070,"stock":100,"supplier_id":1}
+2022-06-06T22:18:43.711Z [store-api] info: GET /products
+2022-06-06T22:18:55.643Z [store-api] error: PUT  - bind message supplies 7 parameters, but prepared statement "" requires 6
+2022-06-06T22:20:43.505Z [store-api] error: PUT  - bind message supplies 7 parameters, but prepared statement "" requires 6
+2022-06-06T22:21:49.238Z [store-api] error: PUT  - bind message supplies 7 parameters, but prepared statement "" requires 6
+2022-06-06T22:26:47.208Z [store-api] info: PUT /product/1 - {"product_id":1,"name":"Produto 1","description":"Descrição legal","value":1070,"stock":97,"supplier_id":1}
+2022-06-06T22:26:49.884Z [store-api] info: GET /products
+2022-06-06T22:26:56.294Z [store-api] info: DELETE /product/1
+2022-06-06T22:26:57.855Z [store-api] info: GET /products
+2022-06-06T22:27:01.198Z [store-api] info: DELETE /product/1
+2022-06-06T22:27:03.529Z [store-api] info: GET /products
+2022-06-06T22:27:09.975Z [store-api] info: DELETE /product/2
+2022-06-06T22:27:11.446Z [store-api] info: GET /products
+2022-06-06T22:27:16.574Z [store-api] info: POST /product - {"name":"Produto 1","description":"Descrição legal","value":1070,"stock":100,"supplier_id":1}
+2022-06-06T22:27:22.938Z [store-api] info: PUT /product/1 - {"product_id":1,"name":"Produto 1","description":"Descrição legal","value":1070,"stock":97,"supplier_id":1}
+2022-06-06T22:27:24.728Z [store-api] info: GET /products
+2022-06-06T22:27:49.808Z [store-api] info: GET /suppliers
+2022-06-06T22:27:55.593Z [store-api] info: GET /product/1
+2022-06-06T22:27:58.877Z [store-api] info: GET /products
+2022-06-06T22:28:08.170Z [store-api] info: GET /product/3
+2022-06-06T22:28:10.743Z [store-api] info: PUT /product/3 - {"product_id":1,"name":"Produto 1","description":"Descrição legal","value":1070,"stock":97,"supplier_id":1}
+2022-06-06T22:28:12.742Z [store-api] info: GET /products
