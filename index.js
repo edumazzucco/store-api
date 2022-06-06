@@ -5,6 +5,7 @@ import clientsRouter from "./clients.route";
 import suppliersRouter from "./suppliers.route";
 import salesRouter from "./sales.route";
 import productsRouter from "./products.route";
+import res from "express/lib/response";
 
 const { combine, timestamp, label, printf } = winston.format;
 const myFormat = printf(({ level, message, label, timestamp }) => {
@@ -27,5 +28,9 @@ app.use("/client", clientsRouter);
 app.use("/product", productsRouter);
 app.use("/supplier", suppliersRouter);
 app.use("/sale", salesRouter);
+app.use((err, req, res) => {
+  logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);
+  res.status(400).send({ error: err.message });
+});
 
 app.listen(3000, () => console.log("App listening on port 3000!"));
