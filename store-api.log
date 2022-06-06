@@ -1,1 +1,9 @@
 2022-06-06T19:30:51.136Z [store-api] error: POST  - Missing required fields
+2022-06-06T20:29:00.799Z [store-api] error: POST  - connect ECONNREFUSED ::1:5432
+2022-06-06T20:30:22.049Z [store-api] error: POST  - connect ECONNREFUSED ::1:5432
+2022-06-06T20:34:33.979Z [store-api] error: POST  - relation "client" does not exist
+2022-06-06T20:35:34.907Z [store-api] error: POST  - relation "client" does not exist
+2022-06-06T20:36:45.282Z [store-api] info: POST /client - {"name":"João","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
+2022-06-06T20:40:05.755Z [store-api] info: POST /client - {"name":"João","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
+2022-06-06T20:40:55.939Z [store-api] info: POST /client - {"name":"João","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
+2022-06-06T20:47:24.967Z [store-api] info: POST /client - {"name":"João","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}

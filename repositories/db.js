@@ -1,4 +1,5 @@
 import pg from "pg";
+import "dotenv/config";
 
 async function connect() {
   if (global.connection) {
@@ -6,7 +7,7 @@ async function connect() {
   }
 
   const pool = new pg.Pool({
-    connectionString: process.env.DB_URL,
+    connectionString: `${process.env.DB_URL}`,
   });
 
   global.connection = pool;
