@@ -18,3 +18,11 @@
 2022-06-06T21:05:01.238Z [store-api] info: GET /clients
 2022-06-06T21:06:29.786Z [store-api] info: PUT /client/5 - {"name":"Mário","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
 2022-06-06T21:06:36.791Z [store-api] info: GET /clients
+2022-06-06T21:48:35.983Z [store-api] info: GET /suppliers
+2022-06-06T21:48:53.030Z [store-api] error: POST  - client is not defined
+2022-06-06T21:49:08.893Z [store-api] error: POST  - client is not defined
+2022-06-06T21:50:01.607Z [store-api] error: POST  - client is not defined
+2022-06-06T21:50:34.942Z [store-api] error: POST  - client is not defined
+2022-06-06T21:52:20.619Z [store-api] error: POST  - client is not defined
+2022-06-06T21:52:53.083Z [store-api] info: POST /supplier - {"name":"Fornecedor","cnpj":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
+2022-06-06T21:52:57.809Z [store-api] info: GET /suppliers

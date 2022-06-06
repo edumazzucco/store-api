@@ -6,8 +6,8 @@ async function createClient(req, res, next) {
     if (
       !client.name ||
       !client.email ||
+      !client.cpf ||
       !client.phone ||
-      !client.email ||
       !client.address
     ) {
       throw new Error("Missing required fields");
@@ -43,8 +43,8 @@ async function updateClient(req, res, next) {
     if (
       !client.name ||
       !client.email ||
+      !client.cpf ||
       !client.phone ||
-      !client.email ||
       !client.address
     ) {
       throw new Error("Missing required fields");
