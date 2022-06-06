@@ -9,3 +9,12 @@
 2022-06-06T20:47:24.967Z [store-api] info: POST /client - {"name":"João","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
 2022-06-06T21:02:05.207Z [store-api] error: GET  - ClientService.getClients is not a function
 2022-06-06T21:02:51.502Z [store-api] info: GET /clients
+2022-06-06T21:03:07.658Z [store-api] info: GET /clients
+2022-06-06T21:03:12.336Z [store-api] error: GET  - column "id" does not exist
+2022-06-06T21:03:15.939Z [store-api] error: GET  - column "id" does not exist
+2022-06-06T21:04:36.043Z [store-api] info: GET /client/1
+2022-06-06T21:04:45.329Z [store-api] info: GET /clients
+2022-06-06T21:04:52.449Z [store-api] info: DELETE /client/6
+2022-06-06T21:05:01.238Z [store-api] info: GET /clients
+2022-06-06T21:06:29.786Z [store-api] info: PUT /client/5 - {"name":"Mário","cpf":"0123121110","phone":"48999999999","email":"edudasdasdas@hotmail.com","address":"Rua do Lalala"}
+2022-06-06T21:06:36.791Z [store-api] info: GET /clients

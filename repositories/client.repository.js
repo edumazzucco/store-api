@@ -38,7 +38,7 @@ async function getClients() {
 async function getClient(id) {
   const conn = await connect();
   try {
-    const sql = "SELECT * FROM clients WHERE id = $1";
+    const sql = "SELECT * FROM clients WHERE client_id = $1";
     const values = [id];
     const res = await conn.query(sql, values);
     return res.rows[0];
@@ -53,7 +53,7 @@ async function updateClient(id, client) {
   const conn = await connect();
   try {
     const sql =
-      "UPDATE clients SET name = $1, cpf = $2, phone = $3, email = $4, address = $5 WHERE id = $6 RETURNING *";
+      "UPDATE clients SET name = $1, cpf = $2, phone = $3, email = $4, address = $5 WHERE client_id = $6 RETURNING *";
     const values = [
       client.name,
       client.cpf,
@@ -74,7 +74,7 @@ async function updateClient(id, client) {
 async function deleteClient(id) {
   const conn = await connect();
   try {
-    const sql = "DELETE FROM clients WHERE id = $1";
+    const sql = "DELETE FROM clients WHERE client_id = $1";
     const values = [id];
     const res = await conn.query(sql, values);
     return res.rows[0];
